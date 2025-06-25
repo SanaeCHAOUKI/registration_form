@@ -134,12 +134,14 @@ button:hover::before {
     <div>
         <h1>s'inscrire</h1>
         
-        <form action="database-conn.php" method="POST" >
+        <form action="index.php" method="POST" >
+            
             <input type="text" id="nom" name="nom" placeholder="Entrez votre nom" required> <br>
             <input type="text" id="prenom" name="prenom" placeholder="Entrez votre prénom" required> <br>
             <input type="email" id="email" name="email" placeholder="Entrez votre e-mail" required> <br>
             <input type="text" id="telephone" name="telephone" placeholder="Entrez votre numéro de telephone" required> <br>
             <button type="submit"><b>Envoyer</b></button>
+            
         </form>
     </div>
 </body>
